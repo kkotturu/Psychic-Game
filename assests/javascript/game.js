@@ -5,8 +5,6 @@ var wins = 0;
 var losses = 0;
 var numGuess = 10;
 var guessChoices = [];
-
-
 for (var i = 97; i < 123; i++) {
     var computerChoices = String.fromCharCode(i);
     console.log(computerChoices);
